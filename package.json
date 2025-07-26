@@ -5,6 +5,8 @@
   "version": "0.0.0",
   "type": "module",
 "scripts": {
+  "homepage": "https://VeVe-Code.github.io/react-clothing",
+ 
   "start-backend": "cd ../REACT-ECOMMERCE-API && php artisan serve",
   "start-frontend": "vite",
   "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",

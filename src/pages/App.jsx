@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Productcard from '../components/productcard'
 import Nav from '../components/nav'
 import axios from 'axios'
-
+import { BrowserRouter as Router } from 'react-router-dom';
  
 
 function App() {
