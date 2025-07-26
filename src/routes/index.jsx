@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router-dom"; // Use react-router-dom
+import { Navigate } from "react-router-dom"; // Use react-router-dom
 import App from '../pages/App.jsx';
 import Login from '../pages/login.jsx';
 import Layout from '../layout.jsx';
@@ -12,7 +12,8 @@ import AdminProducts from '../pages/admin/AdminProducts';
 import AdminProductsForm from '../pages/admin/AdminProductsForm'; // Import AdminProducts component
 import AdminCategories from "../pages/admin/AdminCategories.jsx";
 import AdminOrdersdetail from '../pages/admin/AdminOrdersdetail.jsx';
-let router = createBrowserRouter([
+import { createHashRouter } from 'react-router-dom';
+let router = createHashRouter([
   {
     path: '/',
     Component: Layout, // Corrected to use `element` and wrapped in JSX
