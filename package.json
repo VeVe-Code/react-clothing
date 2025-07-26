@@ -1,11 +1,11 @@
 {
-  "homepage": "https://veve-code.github.io/react-clothing-project",
+  "homepage": "https://veve-code.github.io/react-clothing/",
   "name": "react-real",
   "private": true,
   "version": "0.0.0",
   "type": "module",
 "scripts": {
-  "homepage": "https://VeVe-Code.github.io/react-clothing",
+  "homepage": "https://VeVe-Code.github.io/react-clothing/",
  
   "start-backend": "cd ../REACT-ECOMMERCE-API && php artisan serve",
   "start-frontend": "vite",
